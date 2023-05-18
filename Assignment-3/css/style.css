@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffff;
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    white-space: 100vw;
+}
+nav{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #000;
+    padding: 20px 50px;
+}
+img{
+    height: 30px;
+    cursor: pointer;
+}
+img:hover{
+    color: #BA0CC5;
+}
+.vl{
+    border-left: 3px solid #ffff;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: #BA0CC5;
+    color: #fff;
+    border-radius: 50px;
+}
+.btn{
+    margin-left: auto;
+}
+.btn button{
+    background-color: #BA0CC5;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.hero{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 90.8vh;
+}
+.main-hero{
+    text-align: center;
+}
+.main-hero h1{
+    font-size: 60px;
+}
+.main-hero p{
+    font-size: 20px;
+}
+.btn2 button{
+    background-color: #BA0CC5;
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    border: none;
+}
+.btn2 button:hover{
+    background-color: #fff;
+    color: #000;
+}
