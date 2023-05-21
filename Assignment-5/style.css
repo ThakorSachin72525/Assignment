@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: #ffff;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.header{
+    /* border: 2px solid red; */
+    height: 30px;
+    margin: 25px;
+}
+.three-lines img{
+    display: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color: rgb(100, 100, 224);
+    border-radius: 15px;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.img img{
+    height: 40px;
+}
+.right-section img{
+    height: 65vh;
+}
+.left-text{
+    font-size: 45px;
+}
+.left-text p{
+    color: rgb(197, 197, 89);
+}
+.second h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 6px;
+}
+.projects{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 40px;
+}
+.left-project img{
+    height: 250px;
+}
+.right-project img{
+    height: 250px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
+}
+.footer h1{
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 9px;
+}
+.logo img{
+    width: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .header{
+        display: none;
+    }
+    .three-lines{
+        display: block;
+    }
+    .three-lines img{
+        margin: 20px;
+        height: 5vh;
+    }
+    img[alt="menu"]{
+        display: block;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-section img{
+        width: 60vw;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .left-text h1{
+        font-size: 40px;
+    }
+    .left-text p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .left-project img{
+        width: 55vw;
+    }
+    .right-project img{
+        width: 55vw;
+    }
+    .second h1{
+        font-size: 35px;
+    }
+    .footer h1{
+        font-size: 35px;
+    }
+}
