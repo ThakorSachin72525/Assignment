@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 body{
     background-color: #000;
     color: #ffff;
@@ -5,4 +11,5 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
+    margin: 30px;
 }
