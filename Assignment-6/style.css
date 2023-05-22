@@ -2,14 +2,67 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Kalam', cursive;
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #000;
+    background-color: #0f0f10;
     color: #ffff;
+    margin: 0 204px 0 204px;
 }
 .header{
     display: flex;
-    justify-content: space-around;
-    margin: 30px;
+    margin: 30px 0 30px 0;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li{
+    list-style: none;
+    font-weight: 700;
+}
+.btn button{
+    background-color: #1e1e21;
+    color: #ffff;
+    width: 115px;
+    height: 41px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 25px;
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.headphone1{
+    position: relative;
+    width: 40%;
+    top: -225px;
+    left: 70px;
+}
+.headphone1 img{
+    height: 550px;
+}
+main{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.right-side{
+    width: 60%;
+    margin-top: 45px;
+}
+.right-side img{
+    height: 70px;
+    margin-left: 85px;
 }
