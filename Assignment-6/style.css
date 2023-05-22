@@ -23,6 +23,7 @@ body{
 .navbar ul li{
     list-style: none;
     font-weight: 700;
+    font-size: 14px;
 }
 .btn button{
     background-color: #1e1e21;
@@ -44,59 +45,67 @@ body{
     align-items: center;
     gap: 40px;
 }
-.headphone1{
-    position: relative;
-    width: 40%;
-    top: -225px;
-    left: 70px;
-}
-.headphone1 img{
-    height: 550px;
-}
 main{
     display: flex;
-    align-items: top;
-    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
 }
-.right-side{
-    width: 60%;
-    margin-top: 45px;
-    
+.main-img{
+    width: 230px;
+    position: relative;
+    top: -220px;
+    left: 70px;
 }
-.right-side img{
-    height: 70px;
-    margin-left: 85px;
+.main-img img{
+    height: 550px;
 }
-.right-side h1{
-    margin-left: 40px;
-    font-size: 50px;
+.main {
+    margin-left: 180px;
 }
-.right-side h3{
-    margin-left: 40px;
-    font-size: 20px;
-    font-weight: 400;
+.main img{
+    width: 320px;
+    margin-left: 55px;
+    margin-top: 33px;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.main h4{
+    font-size: 15px;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.right-side p{
-    font-size: 14px;
-    font-weight: 300;
-    margin-left: 40px;
+.main p{
+    font-size: 13px;
+    font-weight: 100;
 }
-.Add-to-bag{
-    height: 45px;
-    width: 221px;
+.shopping-bag {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #1e1e21;
-    border-radius: 10px;
     margin-top: 25px;
-    margin-left: 40px;
-}
-.Add-to-bag img{
-    height: 20px;
-}
-.Add-to-bag h3{
-    font-size: 15px;
-}
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+  }
+  
+  .shopping-bag img {
+    width: 15px;
+    background-color: transparent;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+  
+  .shopping-bag p {
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .shopping-bag span {
+    background-color: transparent;
+  }
