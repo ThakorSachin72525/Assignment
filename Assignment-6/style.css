@@ -50,6 +50,7 @@ main{
     align-items: flex-start;
     margin-top: 30px;
     position: relative;
+    height: 500px;
 }
 .main-img{
     width: 230px;
@@ -114,4 +115,51 @@ main{
     align-items: center;
     justify-content: center;
     gap: 110px;
+}
+.main-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    border: 2px solid red;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.hp-icons .bt{
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+.hp-icons .bt h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+.hp-icons .bt p{
+    font-size: 10px;
+}
+.hp-icons .battery h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+.hp-icons .battery p{
+    font-size: 10px;
+}
+.hp-icons .load h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+.hp-icons .load p{
+    font-size: 10px;
+}
+.hp-icons .mic h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+.hp-icons .mic p{
+    font-size: 10px;
+}
+.hp-icons .mic{
+    margin-left: 60px;
 }
