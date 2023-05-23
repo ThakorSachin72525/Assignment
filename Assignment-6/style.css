@@ -109,3 +109,9 @@ main{
   .shopping-bag span {
     background-color: transparent;
   }
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
