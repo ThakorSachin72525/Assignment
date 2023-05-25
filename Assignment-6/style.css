@@ -11,6 +11,7 @@ body{
     color: #ffff;
     margin: 0 204px 0 204px;
 }
+/* This is header  */
 .header{
     display: flex;
     margin: 30px 0 30px 0;
@@ -45,6 +46,7 @@ body{
     align-items: center;
     gap: 40px;
 }
+/* middel section  */
 main{
     display: flex;
     align-items: flex-start;
@@ -110,26 +112,36 @@ main{
   .shopping-bag span {
     background-color: transparent;
   }
+/* logos section  */
 .logos{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 110px;
 }
+#icons{
+    height: 25px;
+}
 .main-icons{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
-    border: 2px solid red;
+}
+.specs img{
+    height: 61px;
+    width: 170px;
 }
 .content{
     display: flex;
     align-items: center;
     gap: 100px;
 }
+.hp-icons{
+    margin-top: 25px;
+}
 .hp-icons .bt{
-    margin-left: 60px;
+    margin-left: 40px;
     margin-bottom: 25px;
 }
 .hp-icons .bt h4{
@@ -138,6 +150,12 @@ main{
 }
 .hp-icons .bt p{
     font-size: 10px;
+}
+.hp-icons .battery{
+    margin-bottom: 25px;
+}
+.hp-icons .load{
+    margin-bottom: 25px;
 }
 .hp-icons .battery h4{
     font-size: 13px;
@@ -161,5 +179,12 @@ main{
     font-size: 10px;
 }
 .hp-icons .mic{
-    margin-left: 60px;
+    margin-left: 40px;
+}
+#mini-icons{
+    height: 20px;
+}
+.hp img{
+    height: 314px;
+    width: 244px;
 }
