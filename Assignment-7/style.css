@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f5;
+}
 header{
     display: flex;
     align-items: center;
@@ -19,6 +23,7 @@ header ul li{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* main section right side  */
 .greenBox,
 .yellowBox {
 position: absolute;
@@ -41,7 +46,7 @@ right: 0;
 bottom: 0;
 height: 90%;
 }
-/* main section  */
+/* main section left side */
 .left-top {
     height: 20px;
     width: 20px;
@@ -52,11 +57,21 @@ height: 90%;
 }
 .content{
     margin-left: 72px;
+    margin-top: -25px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url("images/stethoscope.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer-side{
     display: flex;
@@ -65,7 +80,7 @@ main{
 .btn{
     height: 65px;
     width: 300px;
-    background-color: #41d399;
+    background-color: #20bc7e;
     border-radius: 30px;
     color: #ffff;
     display: flex;
@@ -74,6 +89,7 @@ main{
 }
 .btn p{
     font-size: 25px;
+    font-weight: bolder;
 }
 .left-footer {
     margin-left: 250px;
