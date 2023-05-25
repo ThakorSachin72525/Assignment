@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f5;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+header img{
+    height: 48px;
+    margin-left: 68px;
+}
+.list {
+    display: flex;
+    gap: 50px;
+    margin-right: 120px;
+}
+header ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.container{
+    display: flex;
+    gap: 45px;
+    margin-top: 20px;
+}
+.contant h1{
+    text-align: center;
+    color: #20bc7e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.contant p{
+    text-align: center;
+}
+.container h1{
+    color: #20bc7e;
+    font-weight: 900;
+}
+.container p{
+    font-weight: bolder;
+    margin-top: -20px;
+}
+.doctors{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+.customers{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+.students{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
