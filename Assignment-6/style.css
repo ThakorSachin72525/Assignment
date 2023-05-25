@@ -251,3 +251,33 @@ section{
     height: 42px;
     width: 121px;
 }
+/* this is section 3 icons  */
+.section-3-icons{
+    display: flex;
+    gap: 20px;
+}
+.section-3-first{
+    height: 130px;
+    width: 130px;
+    background-color: #181a1b;
+}
+.section-3-second{
+    height: 130px;
+    width: 130px;
+    background-color: #181a1b;
+}
+.section-3-third{
+    height: 130px;
+    width: 130px;
+    background-color: #181a1b;
+}
+.section-3-fourth{
+    height: 130px;
+    width: 130px;
+    background-color: #181a1b;
+}
+.section-3-fifth{
+    height: 130px;
+    width: 130px;
+    background-color: #181a1b;
+}
