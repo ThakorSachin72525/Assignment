@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Kalam', cursive;
     font-family: 'Poppins', sans-serif;
 }
 body{
@@ -187,4 +185,69 @@ main{
 .hp img{
     height: 314px;
     width: 244px;
+}
+/* this is hp section  */
+section{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+}
+.case img{
+    height: 45px;
+}
+.caseimg{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.caseimg img{
+    height: 350px;
+}
+.case-btn{
+    background-color: #1e1e21;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 8px;
+    height: 43px;
+    width: 139px;
+}
+.case-btn img{
+    height: 20px;
+}
+.case-btn p{
+    font-size: 13px;
+}
+.case-content p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.section-2{
+    height: 321px;
+    width: 941px;
+    margin-top: 120px;
+    background-color: #181a1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.section2-text p{
+    margin: 12px 0 12px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section2-btn{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 8px;
+    height: 42px;
+    width: 121px;
 }
