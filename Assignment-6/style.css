@@ -377,3 +377,10 @@ section{
 .section-3-fifth .section-3-text{
     gap: 18px;
 }
+
+/* this is footer  */
+footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
