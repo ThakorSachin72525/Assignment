@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #f6f8fa;
+    background-color: #eef1f3;
 }
 /* this is header css */
 .section{
@@ -129,6 +129,46 @@ header {
     top: 25px;
 }
 .section-3-imgs .three{
+    position: relative;
+    top: 50px;
+}
+.section-3-imgs-2{
+    display: flex;
+    bottom: 60px;
+    position: relative;
+    gap: 50px;
+    border-radius: 10px;
+}
+.section-3-imgs-2 img{
+    border-radius: 15px;
+    height: 400px;
+    width: 370px;
+}
+.section-3-imgs-2 .two{
+    position: relative;
+    top: 25px;
+}
+.section-3-imgs-2 .one{
+    position: relative;
+    top: 50px;
+}
+.section-3-imgs-3{
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 120px;
+}
+.section-3-imgs-3 img{
+    border-radius: 15px;
+    height: 400px;
+    width: 370px;
+}
+.section-3-imgs-3 .two{
+    position: relative;
+    top: 25px;
+}
+.section-3-imgs-3 .three{
     position: relative;
     top: 50px;
 }
