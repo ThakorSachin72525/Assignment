@@ -172,3 +172,164 @@ header {
     position: relative;
     top: 50px;
 }
+/* this is section - 4  */
+.section-4-items{
+    display: flex;
+}
+.section-4-top{
+    display: flex;
+    align-items: center;
+}
+.section-4-blue{
+    height: 360px;
+    width: 513px;
+    background-color: #6663e9;
+    border-bottom-right-radius: 60px;
+}
+.section-4-white{
+    position: absolute;
+    left: 83px;
+    height: 328px;
+    width: 328px;
+    background-color: #fff;
+    border-radius: 60px;
+}
+.section-4-items img{
+    position: absolute;
+    margin-top: -105px;
+    left: 113px;
+    height: 407px;
+    width: 400px;
+    /* background-color: pink; */
+    border-radius: 60px;
+}
+.section-4-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+.section-4-text h1{
+    font-size: 60px;
+}
+.section-4-btn{
+    height: 45px;
+    width: 190px;
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+/* this is section 4 bottom side  */
+.section-4-bottom{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.section-4-bottom-items{
+    display: flex;
+    align-items: center;
+}
+.section-4-bottom-img{
+    height: 410px;
+    width: 400px;
+    position: absolute;
+    left: 820px;
+    border-radius: 60px;
+    margin-top: -150px;
+}
+.section-4-bottom-blue{
+    height: 460px;
+    width: 660px;
+}
+/* this is section-5  */
+.section-5{
+    margin-top: 40px;
+    margin-left: 70px;
+    height: 473px;
+    width: 1203px;
+    background-color: #6663e9;
+    border-radius: 70px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 55px;
+}
+.section-5 h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-5-bottom{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.section-5 input{
+    background-color: #5654d1;
+    height: 60px;
+    width: 470px;
+    border-radius: 30px;
+    border: none;
+}
+.section-5 input::placeholder{
+    color: #fff;
+    text-align: center;
+}
+.section-5 .btn{
+    height: 60px;
+    width: 180px;
+    background-color: #fff;
+    color: #6663e9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.section-5-bottom img{
+    position: relative;
+    left: 60px;
+}
+/* this is footer side  */
+footer{
+    display: flex;
+    height: 420px;
+}
+.footer-left{
+    width: 50%;
+    /* border: 2px solid red; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo-footer{
+    width: 150px;
+}
+.leftside{
+    margin-left: 80px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-right{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-right ul{
+    list-style: none;
+    margin: 15px 0;
+}
+.footer-right ul li{
+    margin: 10px 0;
+}
