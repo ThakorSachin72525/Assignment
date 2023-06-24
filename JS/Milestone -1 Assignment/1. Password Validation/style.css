@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau", sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/10/11/09/field-1728099_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 103%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 1350px;
+  background-color: transparent;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 200px;
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0);
+  border-top: solid rgba(0, 0, 0, 0.2);
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  height: 25px;
+  width: 230px;
+}
+#btn {
+  height: 25px;
+  width: 80px;
+}
+
+#result {
+  font-size: 22px;
+  font-weight: bold;
+}
