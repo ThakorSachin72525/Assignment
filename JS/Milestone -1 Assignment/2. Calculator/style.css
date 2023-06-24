@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 17px;
+}
+h1{
+    font-size: 25px;
+}
+section{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 615px;
+    background-color: antiquewhite;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    width: 130px;
+    height: 30px;
+}
+
+#result{
+    font-size: 25px;
+}
