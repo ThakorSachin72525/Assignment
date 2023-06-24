@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mouseover</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="box"></div>
+    </section>
+    <script>      
+      let mo = document.querySelector(".box");
+      mo.addEventListener("mouseover", function () {
+              mo.style.background = "yellow";
+              mo.innerHTML = "Just mouse over";
+            }) 
+    </script>
+  </body>
+</html>

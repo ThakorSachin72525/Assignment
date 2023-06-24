@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onPressKey</title>
+    <style>
+        section { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="type"></div>
+        <input id="input-box" type="text" placeholder="type here...">
+    </section>
+    <script>
+        let type = document.getElementById('type');
+        let typeInput = document.getElementById('input-box');
+
+        typeInput.addEventListener('keypress', function(){
+            type.innerHTML = "You type: " + typeInput.value
+        })
+    </script>
+</body>
+</html>
