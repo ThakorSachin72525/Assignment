@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 617px;
+    flex-direction: column;
+    gap: 50px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#red1{
+    background-color: red;
+}
+
+#blue1{
+    background-color: blue;
+}
+
+#green1{
+    background-color: green;
+}
+
+#yellow1{
+    background-color: yellow;
+}
+
