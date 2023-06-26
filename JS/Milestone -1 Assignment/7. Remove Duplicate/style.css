@@ -3,24 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-image: radial-gradient(
-    circle 588px at 31.7% 40.2%,
-    rgba(225, 200, 239, 1) 21.4%,
-    rgba(163, 225, 233, 1) 57.1%
-  );
-  font-family: cursive;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 615px;
+  flex-direction: column;
+  height: 618px;
+  gap: 20px;
 }
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
