@@ -1,0 +1,20 @@
+body {
+  font-family: cursive;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 615px;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
