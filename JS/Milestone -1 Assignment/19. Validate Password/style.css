@@ -26,13 +26,15 @@ section {
   flex-direction: column;
   box-shadow: 0 0 20px black;
 }
-
+input {
+  width: 193px;
+}
 #btn {
     background-color: black;
     color: #5fb8e0;
     border: none;
     height: 30px;
-    width: 70%;
+    width: 200px;
     cursor: pointer;
     transition: .5s;
     margin-bottom: 15px;
