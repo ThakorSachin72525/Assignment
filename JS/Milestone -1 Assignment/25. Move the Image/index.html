@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #image {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    *{
+        font-family: cursive, sans;
+    }
+    h1{
+        position: relative;
+        top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <img id="image" src="right-arrow.png" width="100" height="100">
+  <h1>Use Arrow button to move</h1>
+  <script>
+    var image = document.getElementById("image");
+    var positionX = 0;
+    var positionY = 0;
+
+    document.addEventListener("keydown", moveImage);
+
+    function moveImage(event) {
+      var key = event.keyCode;
+
+      // Move image based on arrow key
+      switch (key) {
+        case 37: // Left arrow key
+        image.style.transform = "rotate(-180deg)"
+          positionX -= 10;
+          break;
+        case 38: // Up arrow key
+        image.style.transform = "rotate(-90deg)"
+        positionY -= 10;
+        break;
+        case 39: // Right arrow key
+        image.style.transform = "rotate(0deg)"
+        positionX += 10;
+        break;
+        case 40: // Down arrow key
+        image.style.transform = "rotate(90deg)"
+          positionY += 10;
+          break;
+      }
+      image.style.left = positionX + "px";
+      image.style.top = positionY + "px";
+    }
+  </script>
+</body>
+</html>
