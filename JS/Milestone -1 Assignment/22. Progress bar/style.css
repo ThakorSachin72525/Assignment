@@ -1,0 +1,13 @@
+body {
+    height: 2000px; /* Example height for testing */
+}
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #007bff;
+    z-index: 9999;
+    transition: width 0.3s;
+}
