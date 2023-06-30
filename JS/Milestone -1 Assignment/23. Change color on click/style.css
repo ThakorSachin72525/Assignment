@@ -1,0 +1,12 @@
+body{
+    font-family: cursive;
+}
+section{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+#btn{
+    position: relative;
+    left: 80px;
+}
