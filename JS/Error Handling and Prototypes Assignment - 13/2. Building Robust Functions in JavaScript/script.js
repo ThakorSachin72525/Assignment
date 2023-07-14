@@ -1,5 +1,17 @@
 function getPerson(obj) {
-    return `name: "${obj.name}", age: ${obj.age}`;
+    try {
+        if (
+            typeof obj !== "object" ||
+            obj === null ||
+            !("name" in obj) ||
+            !("age" in obj)
+        ) {
+            throw new Error("Invalid parameter type");
+        }
+        return `Name: ${obj.name}, Age:${obj.age}`;
+    } catch (error) {
+        return error.message;
+    }
 }
 
 let a = {
@@ -9,7 +21,6 @@ let a = {
 
 let b = {
     name: "Thakor Sachin",
-    age: 25
 };
 
 console.log(getPerson(a));
