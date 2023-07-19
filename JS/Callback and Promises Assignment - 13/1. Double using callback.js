@@ -16,7 +16,7 @@ function doubleElement(num) {
     return num * 2;
   }
   
-  const inputArray = [1, 2, 3, 4, 5];
+  const inputArray = [1, 2, 3, 4, 5, 6];
   
   try {
     const resultArray = doubleWithCallback(inputArray, doubleElement);
