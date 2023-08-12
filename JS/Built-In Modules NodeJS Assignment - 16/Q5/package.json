@@ -1,0 +1,14 @@
+{
+  "name": "Q-1",
+  "version": "1.0.0",
+  "description": "This is node assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "run s1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Sachin Thakor",
+  "license": "ISC"
+}
