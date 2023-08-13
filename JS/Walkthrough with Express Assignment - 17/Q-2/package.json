@@ -1,0 +1,17 @@
+{
+  "name": "q2",
+  "version": "1.0.0",
+  "description": "express assingment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ExpressJS"
+  ],
+  "author": "Sachin Thakor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
